@@ -6,7 +6,7 @@ version           "0.3"
 recipe            "rabbitmq", "Install and configure RabbitMQ"
 recipe            "rabbitmq::cluster", "Set up RabbitMQ clustering."
 
-%w{ubuntu debian}.each do |os|
+%w{ubuntu debian redhat centos}.each do |os|
   supports os
 end
 
