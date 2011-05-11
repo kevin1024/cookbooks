@@ -1,0 +1,61 @@
+{
+  "name": "redis",
+  "description": "Installs and configures redis server",
+  "long_description": "",
+  "maintainer": "Kevin McCarthy",
+  "maintainer_email": "me@kevinmccarthy.org",
+  "license": "Apache v2.0",
+  "platforms": {
+    "ubuntu": ">= 0.0.0",
+    "debian": ">= 0.0.0",
+    "redhat": ">= 0.0.0",
+    "centos": ">= 0.0.0"
+  },
+  "dependencies": {
+  },
+  "recommendations": {
+  },
+  "suggestions": {
+  },
+  "conflicting": {
+  },
+  "providing": {
+  },
+  "replacing": {
+  },
+  "attributes": {
+    "redis": {
+      "display_name": "redis",
+      "description": "Hash of redis attributes",
+      "type": "hash",
+      "choice": [
+
+      ],
+      "calculated": false,
+      "required": "optional",
+      "recipes": [
+
+      ]
+    },
+    "redis/databases": {
+      "display_name": "Number of redis databases",
+      "description": "The number of redis datbases. The default is 16, the max is infinite, but you should keep it below 1024",
+      "default": "16",
+      "choice": [
+
+      ],
+      "calculated": false,
+      "type": "string",
+      "required": "optional",
+      "recipes": [
+
+      ]
+    }
+  },
+  "groupings": {
+  },
+  "recipes": {
+    "redis": "Install and configure redis"
+  },
+  "version": "0.3.0"
+}
