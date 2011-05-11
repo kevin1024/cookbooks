@@ -1,0 +1,6 @@
+maintainer       "Kevin McCarthy"
+maintainer_email "me@kevinmccarthy.org"
+license          "All rights reserved"
+description      "Installs/Configures beanstalkd"
+version          "0.0.1"
+recipe           "beanstalkd", "Install and configure beanstalkd"

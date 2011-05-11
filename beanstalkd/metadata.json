@@ -1,0 +1,30 @@
+{
+  "name": "beanstalkd",
+  "description": "Installs/Configures beanstalkd",
+  "long_description": "",
+  "maintainer": "Kevin McCarthy",
+  "maintainer_email": "me@kevinmccarthy.org",
+  "license": "All rights reserved",
+  "platforms": {
+  },
+  "dependencies": {
+  },
+  "recommendations": {
+  },
+  "suggestions": {
+  },
+  "conflicting": {
+  },
+  "providing": {
+  },
+  "replacing": {
+  },
+  "attributes": {
+  },
+  "groupings": {
+  },
+  "recipes": {
+    "beanstalkd": "Install and configure beanstalkd"
+  },
+  "version": "0.0.1"
+}
